@@ -45,7 +45,7 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// We create the variable secret, and also we creat the variable code and set its value to 123.
+// We create the variable secret, and also we create the variable code and set its value to 123.
 // We run a conditional to check if the code is strictly equal to 123 or if it is greater than 250.
 // The code does equal 123, so secret is set to super and code's value is multiplied by 2.
 // We console log secret which should come out as super.
@@ -70,10 +70,14 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We create three variables, isStudent and set it to true, age and set it to 34,
+// and zip which is set to 55407.
+// We run a conditional to check if isStudent is strictly true AND if zip is greater than 80000, 
+// which it is not, so we move on to the next condition.
+// We then check if isStudent is strictly false or age is less than 30,
+// which neither apply so we move onto the next condition.
+// We then check if isStudent is strictly true, which it is.
+// Finally we console log with the out put Welcome to Prime!
 
 //CODE
 /*
