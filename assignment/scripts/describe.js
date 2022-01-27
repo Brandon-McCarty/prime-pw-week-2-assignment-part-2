@@ -1,5 +1,5 @@
 // WHAT IS THIS EVEN DOING?
-console.log('Hello');
+
 // For questions 1-3, each code block is syntactically and logically correct. Your job is to describe what is happening. 
 // They are in isolation -- variables in one question do not affect other questions.
 // Describe the code as it would be run, and make sure you give us the console.log's value at the end.
@@ -26,10 +26,10 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We make a variable called name and set it to be called Dane.
+// We then run a conditional to check if the input is strictly Mary or anything else.
+// In this case name is not strictly Mary and falls under the else category output.
+//The console log output would be How do you do?
 
 //CODE
 /*
