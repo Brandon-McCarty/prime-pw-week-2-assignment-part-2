@@ -140,19 +140,17 @@ let colorOne = 'red';
 let colorTwo = 'blue';
 let mix = true;
 
+// FIX - colorOne and colorTwo both need to be set to be purple separately as the output.
+// Should be if (mix === true) {
+  colorOne = 'purple'
+  colorTwo = 'purple';
+}
+
 if (mix === true) {
   colorOne = 'purple';
 }
 */
-let colorOne = 'red';
-let colorTwo = 'blue';
-let mix = true;
 
-if (mix === true) {
-  colorOne = 'purple'
-  colorTwo = 'purple';
-}
-console.log(colorOne, colorTwo);
 //5. We start with two variables -- temp is set to 40 and time is set to 4.
 // We check if temp is higher than 39 and if time is greater or equal to  4 
 // -- they are so we console.log 'throw away the food!'
@@ -161,6 +159,8 @@ console.log(colorOne, colorTwo);
 let temp = 40;
 const time = 4;
 
+// FIX - We need to check if temp is greater than 39 AND if time is greater than or equal to 4.
+// Should be: if (temp > 39 && time >= 4)
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
