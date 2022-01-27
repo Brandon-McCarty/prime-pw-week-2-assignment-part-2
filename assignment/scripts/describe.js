@@ -77,7 +77,7 @@ console.log(secret)
 // We then check if isStudent is strictly false or age is less than 30,
 // which neither apply so we move onto the next condition.
 // We then check if isStudent is strictly true, which it is.
-// Finally we console log with the out put Welcome to Prime!
+// Finally we get console log with the out put Welcome to Prime!
 
 //CODE
 /*
@@ -134,6 +134,8 @@ if (number >= 2) {
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
 /*
+// FIX - colorOne and colorTwo are set incorrectly
+//Should be colorOne = 'blue' and 'colorTwo = 'red'
 let colorOne = 'red';
 let colorTwo = 'blue';
 let mix = true;
@@ -142,7 +144,15 @@ if (mix === true) {
   colorOne = 'purple';
 }
 */
+let colorOne = 'red';
+let colorTwo = 'blue';
+let mix = true;
 
+if (mix === true) {
+  colorOne = 'purple'
+  colorTwo = 'purple';
+}
+console.log(colorOne, colorTwo);
 //5. We start with two variables -- temp is set to 40 and time is set to 4.
 // We check if temp is higher than 39 and if time is greater or equal to  4 
 // -- they are so we console.log 'throw away the food!'
