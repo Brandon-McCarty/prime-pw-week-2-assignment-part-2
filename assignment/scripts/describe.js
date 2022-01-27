@@ -45,10 +45,10 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We create the variable secret, and also we creat the variable code and set its value to 123.
+// We run a conditional to check if the code is strictly equal to 123 or if it is greater than 250.
+// The code does equal 123, so secret is set to super and code's value is multiplied by 2.
+// We console log secret which should come out as super.
 
 //CODE
 /*
